@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f7fb;
+  color: #333;
+}
+
+header {
+  background: #4f46e5;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+section {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  color: #4f46e5;
+}
+
+.skills {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.skills li {
+  background: #e0e7ff;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.project-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.project-card a {
+  color: #4f46e5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+}
+@media (max-width: 600px) {
+  .skills {
+    flex-direction: column;
+  }
+
+  section {
+    padding: 20px;
+  }
+}
+
